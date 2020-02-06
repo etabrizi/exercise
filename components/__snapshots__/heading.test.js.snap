@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Heading component renders correctly 1`] = `
+<div
+  className="jsx-3962350051 animated fadeIn"
+>
+  <div
+    className="Typist "
+  >
+    <span
+      className="Cursor Cursor--blinking"
+    >
+      |
+    </span>
+  </div>
+</div>
+`;

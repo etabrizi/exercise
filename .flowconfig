@@ -1,0 +1,9 @@
+[ignore]
+.*/node_modules/*
+
+[include]
+
+[libs]
+/html-react-parser
+
+[options]

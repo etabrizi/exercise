@@ -1,0 +1,90 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Controls component renders correctly 1`] = `
+<nav
+  className="jsx-782766476"
+>
+  <ul
+    className="jsx-782766476 "
+  >
+    <li
+      className="jsx-782766476"
+    >
+      <a
+        className="jsx-782766476"
+        href="#"
+        onClick={[Function]}
+      >
+        <span
+          className="jsx-782766476 icon-circle-left"
+        />
+      </a>
+    </li>
+    <li
+      className="jsx-782766476"
+    >
+      <a
+        className="jsx-782766476"
+        href="#"
+        onClick={[Function]}
+      >
+        <span
+          className="jsx-782766476 icon-circle-right"
+        />
+      </a>
+    </li>
+    <li
+      className="jsx-782766476"
+    >
+      <a
+        className="jsx-782766476"
+        href="#"
+        onClick={[Function]}
+      >
+        <span
+          className="jsx-782766476 icon-male1"
+        />
+      </a>
+    </li>
+    <li
+      className="jsx-782766476 "
+    >
+      <a
+        className="jsx-782766476"
+        href="#"
+        onClick={true}
+      >
+        <span
+          className="jsx-782766476 icon-info"
+        />
+      </a>
+    </li>
+    <li
+      className="jsx-782766476 "
+    >
+      <a
+        className="jsx-782766476"
+        href="#"
+        onClick={[Function]}
+      >
+        <span
+          className="jsx-782766476 icon-search"
+        />
+      </a>
+    </li>
+    <li
+      className="jsx-782766476 hide"
+      onClick={[Function]}
+    >
+      <a
+        className="jsx-782766476"
+        href="#"
+      >
+        <span
+          className="jsx-782766476 icon-cancel-circle"
+        />
+      </a>
+    </li>
+  </ul>
+</nav>
+`;

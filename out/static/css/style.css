@@ -1,0 +1,96 @@
+@font-face {
+  font-family: Futura;
+  src: url('/static/fonts/FuturaPTBook.otf') format('opentype');
+}
+
+@font-face {
+  font-family: Futura;
+  font-weight: bold;
+  src: url('/static/fonts/FuturaPTBold.otf') format('opentype');
+}
+
+
+@font-face {
+  font-family: 'icomoon';
+  src:  url('/static/fonts/icomoon.eot?qrblvk');
+  src:  url('/static/fonts/icomoon.eot?qrblvk#iefix') format('embedded-opentype'),
+    url('/static/fonts/icomoon.ttf?qrblvk') format('truetype'),
+    url('/static/fonts/icomoon.woff?qrblvk') format('woff'),
+    url('/static/fonts/icomoon.svg?qrblvk#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-search:before {
+  content: "\e900";
+}
+.icon-male1:before {
+  content: "\e904";
+}
+.icon-female1:before {
+  content: "\e905";
+}
+.icon-info:before {
+  content: "\ea0c";
+}
+.icon-cancel-circle:before {
+  content: "\ea0d";
+}
+.icon-circle-right:before {
+  content: "\ea42";
+}
+.icon-circle-left:before {
+  content: "\ea44";
+}
+
+
+
+html {
+  font-size: 16px;
+}
+
+
+body {
+  font-family: Futura;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ol {
+  margin: 0 0 0 20px;
+  padding: 0;
+}
+ol li {
+  margin-bottom: 20px;
+}
+
+.show {
+  display: block!important;
+}
+
+.hide {
+  display: none!important;
+}
+
+
+.Cursor--blinking {
+  display: none;
+}
+
