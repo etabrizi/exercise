@@ -130,9 +130,6 @@ class MainApp extends Component<Props, State> {
 
     render() {
 
-        console.log(this.state.work);
-
-
         const app = this.state.work.length > 0 ? (
 
             <div>

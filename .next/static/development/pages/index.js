@@ -337,7 +337,7 @@ var Head = function Head(props) {
   }), __jsx("link", {
     rel: "icon",
     sizes: "192x192",
-    href: "/static/touch-icon.png",
+    href: "/public/touch-icon.png",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 18
@@ -345,7 +345,7 @@ var Head = function Head(props) {
     __self: this
   }), __jsx("link", {
     rel: "apple-touch-icon",
-    href: "/static/touch-icon.png",
+    href: "/public/touch-icon.png",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 19
@@ -709,11 +709,10 @@ function (_Component) {
   Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(MainApp, [{
     key: "render",
     value: function render() {
-      console.log(this.state.work);
       var app = this.state.work.length > 0 ? __jsx("div", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 138
+          lineNumber: 135
         },
         __self: this
       }, __jsx(_excercise__WEBPACK_IMPORTED_MODULE_8__["default"], {
@@ -722,7 +721,7 @@ function (_Component) {
         title: this.state.userSearchActive ? this.state.userSearchFound.name : this.state.work[this.state.counter].name,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 139
+          lineNumber: 136
         },
         __self: this
       }), __jsx(_search__WEBPACK_IMPORTED_MODULE_9__["default"], {
@@ -733,7 +732,7 @@ function (_Component) {
         getSearchValue: this.getSearchValue,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 143
+          lineNumber: 140
         },
         __self: this
       }), __jsx(_heading__WEBPACK_IMPORTED_MODULE_11__["default"], {
@@ -742,7 +741,7 @@ function (_Component) {
         title: this.state.userSearchActive ? this.state.userSearchFound.name : this.state.work[this.state.counter].name,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 144
+          lineNumber: 141
         },
         __self: this
       }), __jsx(_controls__WEBPACK_IMPORTED_MODULE_12__["default"], {
@@ -757,13 +756,13 @@ function (_Component) {
         infoToggle: this.state.infoToggle,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 145
+          lineNumber: 142
         },
         __self: this
       })) : __jsx("p", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 148
+          lineNumber: 145
         },
         __self: this
       }, "Sorry Unable to load application content - Please try again later.");
@@ -774,7 +773,7 @@ function (_Component) {
         img: this.state.userSearchActive ? this.state.userSearchFound[this.state.gender ? 'male' : 'female'].image : this.state.work[this.state.counter][this.state.gender ? 'male' : 'female'].image,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 152
+          lineNumber: 149
         },
         __self: this
       }, this.state.step === 'start' && app, this.state.imageStatus);
@@ -9804,7 +9803,7 @@ Index.getInitialProps = function _callee() {
 
 /***/ }),
 
-/***/ 1:
+/***/ 2:
 /*!*************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Femyrtabrizi%2FDesktop%2FGymshark%20%2Femyr%2Fmyapp%2Fpages%2Findex.js ***!
   \*************************************************************************************************************************************************/
@@ -9827,5 +9826,5 @@ module.exports = dll_5f137288facb1107b491;
 
 /***/ })
 
-},[[1,"static/runtime/webpack.js"]]]);
+},[[2,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=index.js.map

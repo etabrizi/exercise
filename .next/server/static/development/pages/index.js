@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 4);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -433,7 +433,7 @@ const Head = props => __jsx(next_head__WEBPACK_IMPORTED_MODULE_1___default.a, {
 }), __jsx("link", {
   rel: "icon",
   sizes: "192x192",
-  href: "/static/touch-icon.png",
+  href: "/public/touch-icon.png",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 18
@@ -441,7 +441,7 @@ const Head = props => __jsx(next_head__WEBPACK_IMPORTED_MODULE_1___default.a, {
   __self: undefined
 }), __jsx("link", {
   rel: "apple-touch-icon",
-  href: "/static/touch-icon.png",
+  href: "/public/touch-icon.png",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 19
@@ -769,11 +769,10 @@ class MainApp extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
   }
 
   render() {
-    console.log(this.state.work);
     const app = this.state.work.length > 0 ? __jsx("div", {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 138
+        lineNumber: 135
       },
       __self: this
     }, __jsx(_excercise__WEBPACK_IMPORTED_MODULE_1__["default"], {
@@ -782,7 +781,7 @@ class MainApp extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       title: this.state.userSearchActive ? this.state.userSearchFound.name : this.state.work[this.state.counter].name,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 139
+        lineNumber: 136
       },
       __self: this
     }), __jsx(_search__WEBPACK_IMPORTED_MODULE_2__["default"], {
@@ -793,7 +792,7 @@ class MainApp extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       getSearchValue: this.getSearchValue,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 143
+        lineNumber: 140
       },
       __self: this
     }), __jsx(_heading__WEBPACK_IMPORTED_MODULE_4__["default"], {
@@ -802,7 +801,7 @@ class MainApp extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       title: this.state.userSearchActive ? this.state.userSearchFound.name : this.state.work[this.state.counter].name,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 144
+        lineNumber: 141
       },
       __self: this
     }), __jsx(_controls__WEBPACK_IMPORTED_MODULE_5__["default"], {
@@ -817,13 +816,13 @@ class MainApp extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       infoToggle: this.state.infoToggle,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 145
+        lineNumber: 142
       },
       __self: this
     })) : __jsx("p", {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 148
+        lineNumber: 145
       },
       __self: this
     }, "Sorry Unable to load application content - Please try again later.");
@@ -834,7 +833,7 @@ class MainApp extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       img: this.state.userSearchActive ? this.state.userSearchFound[this.state.gender ? 'male' : 'female'].image : this.state.work[this.state.counter][this.state.gender ? 'male' : 'female'].image,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 152
+        lineNumber: 149
       },
       __self: this
     }, this.state.step === 'start' && app, this.state.imageStatus);
@@ -979,7 +978,7 @@ Index.getInitialProps = async function () {
 
 /***/ }),
 
-/***/ 3:
+/***/ 4:
 /*!******************************!*\
   !*** multi ./pages/index.js ***!
   \******************************/
