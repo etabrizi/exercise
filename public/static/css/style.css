@@ -81,6 +81,15 @@ ol li {
   margin-bottom: 20px;
 }
 
+.loading, .error {
+  margin: 100px auto;
+  width: 500px;
+  text-align: center;
+  font-size: 60px;
+  position: absolute;
+  top: 0;
+}
+
 .show {
   display: block!important;
 }

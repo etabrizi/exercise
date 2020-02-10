@@ -3,6 +3,7 @@ import React from 'react';
 
 const Container = (props) => {
 
+
     return (
 
         <div id="main-container">
@@ -19,7 +20,7 @@ const Container = (props) => {
             background-size: ${props.infoToggle ? '100%' : '70%'};
             position: relative; 
             background-position: ${props.infoToggle ? '0 -250px' : '-100px 0'};
-            transition: all 1s;
+            transition: all 0.2s;
             overflow: hidden;
         }
 
@@ -32,15 +33,14 @@ const Container = (props) => {
     html {
         width: 100%;
         height: 100%;
-        background: url(${props.img}) no-repeat center center fixed; 
+        background: url(${props.img}) no-repeat center center scroll; 
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
         position: relative; 
-        -webkit-transition: all 0.7s;
         background-position: ${props.infoToggle ? '0 0' : '-300px 0px'};
-        transition: all 1s;
+        transition: all 0.2s;
         overflow: hidden;
     }
 

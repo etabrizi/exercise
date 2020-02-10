@@ -21,6 +21,7 @@ const Head = props => (
     <link rel="icon" href="/static/favicon.ico" />
     <link rel="stylesheet" href="/static/css/normalise.css" />
     <link rel="stylesheet" href="/static/css/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"
