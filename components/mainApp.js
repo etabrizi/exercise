@@ -30,7 +30,7 @@ class MainApp extends Component<Props, State> {
 
     state = {
         work: this.props.work.exercises,
-        step: 'loading',
+        step: 'start',
         counter: 1,
         gender: true,
         infoToggle: true,
@@ -46,31 +46,7 @@ class MainApp extends Component<Props, State> {
         }
     };
 
-    componentDidMount() {
 
-        if (this.props.work.exercises.length !== 0) {
-
-            var last = this.props.work.exercises[this.props.work.exercises.length - 1];
-
-            this.props.work.exercises.forEach((item) => {
-                const imgMale = new Image();
-                const imgFemale = new Image();
-                imgMale.src = item.male.image;
-                imgFemale.src = item.female.image;
-
-                if (item === last) {
-                    this.setState({
-                        step: 'start'
-                    })
-                }
-            });
-
-        } else {
-            this.setState({
-                step: 'error'
-            })
-        }
-    }
 
     toggleGender = (event: SyntheticEvent<HTMLInputElement>) => {
         event.preventDefault();
@@ -159,13 +135,14 @@ class MainApp extends Component<Props, State> {
         const app = this.state.step === 'start' ? (
 
             <div>
+                <Controls closeAll={this.closeAll} searchToggle={this.state.searchToggle} toggleSearch={this.toggleSearch} toggleGender={this.toggleGender} gender={this.state.gender} counterDecrease={this.counterDecrease} counterIncrease={this.counterIncrease} toggleInfo={this.toggleInfo} infoToggle={this.state.infoToggle} />
                 <Exercise
                     transcript={this.state.userSearchActive ? this.state.userSearchFound.transcript : this.state.work[this.state.counter].transcript}
                     infoToggle={this.state.infoToggle} title={this.state.userSearchActive ? this.state.userSearchFound.name : this.state.work[this.state.counter].name}
                 />
                 <Search searchToggle={this.state.searchToggle} excercises={this.state.work} updateCard={this.updateCard} searchTerm={this.state.searchTerm} getSearchValue={this.getSearchValue} />
                 <Heading searchToggle={this.state.searchToggle} infoToggle={this.state.infoToggle} title={this.state.userSearchActive ? this.state.userSearchFound.name : this.state.work[this.state.counter].name} />
-                <Controls closeAll={this.closeAll} searchToggle={this.state.searchToggle} toggleSearch={this.toggleSearch} toggleGender={this.toggleGender} gender={this.state.gender} counterDecrease={this.counterDecrease} counterIncrease={this.counterIncrease} toggleInfo={this.toggleInfo} infoToggle={this.state.infoToggle} />
+               
             </div>
         ) : (
                 <p className="loading">..Loading..</p>
@@ -175,7 +152,7 @@ class MainApp extends Component<Props, State> {
             <Container excercises={this.state.work} searchToggle={this.state.searchToggle} infoToggle={this.state.infoToggle} img={this.state.userSearchActive ? this.state.userSearchFound[this.state.gender ? 'male' : 'female'].image : this.state.work[this.state.counter][this.state.gender ? 'male' : 'female'].image}>
 
                 {this.state.step === 'start' && app}
-                {error}
+
 
             </Container>
         );

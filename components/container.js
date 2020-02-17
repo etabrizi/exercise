@@ -1,4 +1,5 @@
 import React from 'react';
+import Img from 'react-image'
 
 
 const Container = (props) => {
@@ -8,42 +9,36 @@ const Container = (props) => {
 
         <div id="main-container">
             {props.children}
+            <Img src={props.img}
+                className="animated fadeIn"
+                loader={<div className="loading"><img src="http://etabrizi.co.uk/spinner.gif" /></div>}
+                decode={false} />
+
             <style jsx global>{`
         
-        html {
-            width: 100%;
+        .loading { width: 100%; font-size: 40px; text-align: center; margin-top: 0; }
+        #main-container {width: 700px; margin: 0 auto; position:relative; }
+        img { width: 100%; position:relative;}
+        #main-container:after {
+            content:''; 
+            display:block; 
+            position: absolute; 
+            top:0; 
+            left:0; 
+            width:100%; 
             height: 100%;
-            background: url(${props.img}) no-repeat center center fixed; 
-            -webkit-background-size: cover;
-            -moz-background-size: cover;
-            -o-background-size: cover;
-            background-size: ${props.infoToggle ? '100%' : '70%'};
-            position: relative; 
-            background-position: ${props.infoToggle ? '0 -250px' : '-100px 0'};
-            transition: all 0.2s;
-            overflow: hidden;
+            background: rgb(255,255,255);
+            background: linear-gradient(180deg, rgba(255,255,255,0) 74%, rgba(255,255,255,1) 94%, rgba(255,255,255,1) 100%);
         }
 
-        img { visibility: hidden; position:absolute; bottom: -4000px;}
-
-        
-
-   @media only screen and (max-width: 1024px) {
+   @media only screen and (max-width: 767px) {
     
-    html {
-        width: 100%;
-        height: 100%;
-        background: url(${props.img}) no-repeat center center scroll; 
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        position: relative; 
-        background-position: ${props.infoToggle ? '0 0' : '-300px 0px'};
-        transition: all 0.2s;
-        overflow: hidden;
+    #main-container {width: 100%; margin: 0 auto; min-height: 800px; position:relative;}
+    .loading { width: 100%; font-size: 40px; text-align: right; margin-top: 0; }
+    #main-container:after {
+        background: rgb(255,255,255);
+        background: linear-gradient(180deg, rgba(255,255,255,0) 20%, rgba(255,255,255,1) 45%, rgba(255,255,255,1) 100%);
     }
-
    } 
            `}</style>
         </div>

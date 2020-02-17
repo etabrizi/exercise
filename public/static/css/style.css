@@ -37,6 +37,8 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+
+
 .icon-search:before {
   content: "\e900";
 }
@@ -67,7 +69,7 @@ html {
 
 
 body {
-  font-family: Futura;
+  font-family: 'Arimo', sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;

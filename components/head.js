@@ -26,6 +26,10 @@ const Head = props => (
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"
     />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Arimo&display=swap"
+    />
     <meta property="og:url" content={props.url || defaultOGURL} />
     <meta property="og:title" content={props.title || ''} />
     <meta

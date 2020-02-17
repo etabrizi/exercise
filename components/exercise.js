@@ -38,6 +38,7 @@ const Exercise = ({ transcript, infoToggle, title }: Props) => {
 
         .open {
             right: -1000px;
+            display: none;
         }
 
         .closed {
@@ -47,7 +48,7 @@ const Exercise = ({ transcript, infoToggle, title }: Props) => {
    @media only screen and (max-width: 767px) {
     
     div {
-        width: 70%;
+        width: 66.5%;
     }
    
     

@@ -33,6 +33,10 @@ const Controls = ({ counterDecrease, counterIncrease, toggleInfo, gender, toggle
              width: 100%;
              transition: all 0.7s;
              padding-top: 10px;
+             position: absolute;
+             top: 0;
+             left:0;
+             z-index: 100;
          }   
 
          nav:hover {
@@ -44,7 +48,7 @@ const Controls = ({ counterDecrease, counterIncrease, toggleInfo, gender, toggle
             padding:0; 
             list-style: none;
             text-align: center;
-            transition: all 0.7s;
+            transition: all 0.2s;
         }
 
         li {
@@ -52,7 +56,7 @@ const Controls = ({ counterDecrease, counterIncrease, toggleInfo, gender, toggle
         }
 
         .shift {
-            margin-left: -130px;
+            margin-left: -250px;
         }
 
         a {

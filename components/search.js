@@ -44,16 +44,18 @@ const Search = ({ excercises, searchTerm, getSearchValue, updateCard, searchTogg
             width: 40%;
             opactiy: 0.7;
             transition: all 0.5s;
-            z-index: 1;
+            z-index: 1000;
             overflow-y: scroll;
         }
 
         .open {
             right: -1000px;
+            display: none;
         }
 
         .closed {
             right: 0;
+           
         }
 
         input {
@@ -80,7 +82,7 @@ const Search = ({ excercises, searchTerm, getSearchValue, updateCard, searchTogg
    @media only screen and (max-width: 767px) {
   
     div {
-        width: 70%;
+        width: 66.5%;
     }
 
    } 
