@@ -5,14 +5,15 @@ GYMSHARK - Engineering TEST.
 
 
 
-Things that still needed to be done  - 
+Things that could of been done  - 
 
-Preloading images from API call. 
+
 Full coverage of snapshot tests.
-Some Tests for some key components.
+Tests for some key components.
 Acessibilty audit.
 Performance Audit.
 
+Peace :)
 
 
 
