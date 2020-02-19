@@ -17,7 +17,7 @@ const Search = ({ excercises, searchTerm, getSearchValue, updateCard, searchTogg
     }, this);
 
     let searchResults = fullList.filter((item) => {
-        return item.toLowerCase().indexOf(searchTerm.toLowerCase()) !== -1;
+        return item ? item.toLowerCase().indexOf(searchTerm.toLowerCase()) !== -1 : '';
     }
     );
 

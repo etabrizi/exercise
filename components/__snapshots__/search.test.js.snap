@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Search component renders correctly 1`] = `
+<div
+  className="jsx-583777132 open"
+>
+  <input
+    className="jsx-583777132"
+    onChange={[Function]}
+    placeholder="Search for your workout . . . "
+    type="search"
+  />
+</div>
+`;

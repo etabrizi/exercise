@@ -1,5 +1,5 @@
 import * as React from 'react';
-import Exercise from './excercise';
+import Exercise from './exercise';
 import renderer from 'react-test-renderer';
 
 const Props = {

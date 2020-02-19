@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MainApp component renders correctly 1`] = `
+<div
+  className="jsx-2626450567"
+  id="main-container"
+>
+  <p
+    className="loading"
+  >
+    ..Sorry, there has been an error..
+  </p>
+</div>
+`;

@@ -2,7 +2,7 @@
 
 exports[`Container component renders correctly 1`] = `
 <div
-  className="jsx-3869787912"
+  className="jsx-2626450567"
   id="main-container"
 />
 `;

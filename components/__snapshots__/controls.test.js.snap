@@ -2,86 +2,86 @@
 
 exports[`Controls component renders correctly 1`] = `
 <nav
-  className="jsx-782766476"
+  className="jsx-392105289"
 >
   <ul
-    className="jsx-782766476 "
+    className="jsx-392105289 "
   >
     <li
-      className="jsx-782766476"
+      className="jsx-392105289"
     >
       <a
-        className="jsx-782766476"
+        className="jsx-392105289"
         href="#"
         onClick={[Function]}
       >
         <span
-          className="jsx-782766476 icon-circle-left"
+          className="jsx-392105289 icon-circle-left"
         />
       </a>
     </li>
     <li
-      className="jsx-782766476"
+      className="jsx-392105289"
     >
       <a
-        className="jsx-782766476"
+        className="jsx-392105289"
         href="#"
         onClick={[Function]}
       >
         <span
-          className="jsx-782766476 icon-circle-right"
+          className="jsx-392105289 icon-circle-right"
         />
       </a>
     </li>
     <li
-      className="jsx-782766476"
+      className="jsx-392105289"
     >
       <a
-        className="jsx-782766476"
+        className="jsx-392105289"
         href="#"
         onClick={[Function]}
       >
         <span
-          className="jsx-782766476 icon-male1"
+          className="jsx-392105289 icon-male1"
         />
       </a>
     </li>
     <li
-      className="jsx-782766476 "
+      className="jsx-392105289 "
     >
       <a
-        className="jsx-782766476"
+        className="jsx-392105289"
         href="#"
         onClick={true}
       >
         <span
-          className="jsx-782766476 icon-info"
+          className="jsx-392105289 icon-info"
         />
       </a>
     </li>
     <li
-      className="jsx-782766476 "
+      className="jsx-392105289 "
     >
       <a
-        className="jsx-782766476"
+        className="jsx-392105289"
         href="#"
         onClick={[Function]}
       >
         <span
-          className="jsx-782766476 icon-search"
+          className="jsx-392105289 icon-search"
         />
       </a>
     </li>
     <li
-      className="jsx-782766476 hide"
+      className="jsx-392105289 hide"
       onClick={[Function]}
     >
       <a
-        className="jsx-782766476"
+        className="jsx-392105289"
         href="#"
       >
         <span
-          className="jsx-782766476 icon-cancel-circle"
+          className="jsx-392105289 icon-cancel-circle"
         />
       </a>
     </li>

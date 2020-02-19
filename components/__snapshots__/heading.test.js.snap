@@ -2,7 +2,7 @@
 
 exports[`Heading component renders correctly 1`] = `
 <div
-  className="jsx-3962350051 animated fadeIn"
+  className="jsx-3648482963 show "
 >
   <div
     className="Typist "
